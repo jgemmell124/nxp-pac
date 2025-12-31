@@ -1814,7 +1814,7 @@ pub enum Pwmafs {
     #[doc = "Output is tristated."]
     TRISTATED = 0x02,
     #[doc = "Output is tristated."]
-    TRISTATED = 0x03,
+    TRISTATED_2 = 0x03,
 }
 impl Pwmafs {
     #[inline(always)]
@@ -1894,7 +1894,7 @@ pub enum Pwmbfs {
     #[doc = "Output is tristated."]
     TRISTATED = 0x02,
     #[doc = "Output is tristated."]
-    TRISTATED = 0x03,
+    TRISTATED_2 = 0x03,
 }
 impl Pwmbfs {
     #[inline(always)]
@@ -1974,7 +1974,7 @@ pub enum Pwmxfs {
     #[doc = "Output is tristated."]
     TRISTATED = 0x02,
     #[doc = "Output is tristated."]
-    TRISTATED = 0x03,
+    TRISTATED_2 = 0x03,
 }
 impl Pwmxfs {
     #[inline(always)]
